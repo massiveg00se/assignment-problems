@@ -14,12 +14,12 @@ def union(a, b):
             result.append(b[i])			
     return result
 
-print("testing intersection() on inputs [1, 2, 'a', 'b'], [2, 3, 'a']...")
+print("testing intersection([1, 2, 'a', 'b'], [2, 3, 'a'])...")
 assert intersection([1, 2, 'a', 'b'],
                     [2, 3, 'a']) == [2, 'a'], "There is something wrong."
 print("PASSED")
 
-print("testing union() on inputs [1, 2, 'a', 'b'], [2, 3, 'a']...")
+print("testing union([1, 2, 'a', 'b'], [2, 3, 'a'])...")
 assert union([1, 2, 'a', 'b'],
              [2, 3, 'a']) == [1, 2, 3, 'a', 'b'], "There is something wrong."
 print("PASSED")
