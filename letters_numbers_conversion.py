@@ -1,4 +1,4 @@
-alph = list(" abcdefghijklmnopqrstuvwxyz")
+alph = " abcdefghijklmnopqrstuvwxyz"
 
 
 def convert_to_numbers(input_string):
